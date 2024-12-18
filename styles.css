@@ -20,9 +20,12 @@ h1 {
     margin-bottom: 20px;
 }
 p {
-    font-size: 18px;
+    font-size: 18px; 
     text-align: justify;
     margin-bottom: 20px;
+    color: #444; 
+    line-height: 1.8; 
+    letter-spacing: 0.5px; 
 }
 a {
     color: #007BFF;
@@ -180,26 +183,18 @@ a:hover {
     margin-right: 10px;
 }
 
-/* Футер */
-.footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
-}
-
 /* Стили для текста "Успех неизбежен" */
 .success-text {
     font-family: 'Roboto', sans-serif; /* Используем шрифт Roboto */
     font-size: 36px; /* Увеличиваем размер текста */
     font-weight: bold; 
-    color: #FF5733; 
+    color: #4733ff; 
     margin: 0; 
     text-transform: uppercase; /* Делаем текст заглавными буквами */
     letter-spacing: 2px; /* Увеличиваем расстояние между буквами */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Добавляем тень */
 }
+
 /* Стили для текста "Давайте знакомиться" */
 .intro-text {
     font-size: 24px;
